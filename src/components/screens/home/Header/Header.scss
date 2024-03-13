@@ -50,6 +50,7 @@
     position: fixed;
     z-index: 1999;
     visibility: hidden;
+    display: none;
   }
 
   .header_menu {
@@ -58,6 +59,7 @@
     margin-left: 10px;
     visibility: hidden;
     width: 380px;
+    display: none;
   }
 
     .header_menu p{
@@ -74,6 +76,7 @@
     width: 10px;
     height: 1250px;
     visibility: hidden;
+    display: none;
   }
 
   .header_animation_square {
@@ -479,6 +482,7 @@
     z-index: 999 ;
   color: black  ;
     visibility: hidden;
+    display: none;
 }
 
 .header_top_comp_2_title_7:after{
@@ -488,12 +492,14 @@
     width: 20px;
     margin-top: -65px;
     margin-left: -100px;
+  display: none;
 }
 
 .header_top_comp_2_title_711 {
     margin-top: 10px;
     margin-left: -25px;
   visibility: hidden;
+  display: none;
 }
 
 .header_top_comp_2_title_71{
@@ -594,6 +600,7 @@
     z-index: 50;
     opacity: 0;
     visibility: hidden;
+    display: none;
   }
 
   .header_top_comp_2_title_5_img {
@@ -606,6 +613,7 @@
     z-index: 50;
     opacity: 0;
     visibility: hidden;
+    display: none;
   }
 
   .header_top_comp_2_title_6_img {
@@ -618,7 +626,20 @@
     z-index: 50;
     opacity: 0;
     visibility: hidden;
+    display: none;
   }
+
+  .header_top_comp_2_title_7_img {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
+    animation: opacity 0.1s ;  /* Плавный переход между состояниями видимости */
+   opacity: 0;
+    z-index: 50 ;
+    display: none;
+}
 
   @keyframes rotateCircle {
     from {
@@ -1435,6 +1456,7 @@
     margin-top: 10px;
     z-index: 999;
     visibility: hidden;
+    display: none;
   }
 
   .circle_img_2 {
@@ -1714,6 +1736,7 @@
     background-color: white;
     margin-top: 680px;
     visibility: hidden;
+    display: none;
   }
 
   .header_container_6_title {
@@ -2041,6 +2064,7 @@
     background-color: white;
     margin-top: 1350px;
     visibility: hidden;
+    display: none;
   }
 
   .header_our_prem {

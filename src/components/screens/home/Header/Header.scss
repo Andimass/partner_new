@@ -1,7 +1,7 @@
 @import '/fonts.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 410px) {
 
   .custom-zoom-page{
     max-width: 400px;
@@ -1429,11 +1429,12 @@
 
   .header_container_5 {
     position: absolute;
-    width: 390px;
-    height: 400px;
+    width: 1px;
+    height: 10px;
     background-color: white;
-    margin-top: 2200px;
+    margin-top: 10px;
     z-index: 999;
+    visibility: hidden;
   }
 
   .circle_img_2 {
@@ -2624,7 +2625,7 @@
     width: 390px;
     height: 170px;
     background-color: #2c2b2b;
-    top: 2600px;
+    top: 2260px;
   }
 
   .communication_footer_1 {

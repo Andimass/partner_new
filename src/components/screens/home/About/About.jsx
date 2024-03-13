@@ -851,7 +851,7 @@ useEffect(() => {
                     <p className='communication_footer_2_text_3'>mail@partner-krd.ru</p>
                 </div>
                 <div className='communication_footer_7'>
-                    <p className='communication_footer_2_text_1'>ИФОРМАЦИЯ</p>
+                    <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
                     <p className='communication_footer_2_text_11'>Контакты</p>
                     <p className='communication_footer_2_text_21'>О компании</p>
                 </div>

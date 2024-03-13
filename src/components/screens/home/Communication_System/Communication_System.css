@@ -227,12 +227,14 @@
 
     .communication_1_title {
         position: absolute;
-        margin-left: 20px;
-        margin-top: 65px;
+        margin-left: 45px;
+        margin-top: 75px;
         color: black;
         font-size: 20px;
         font-family: "Cera Pro Bold", sans-serif;
         z-index: 1;
+        width: 300px;
+        line-height: 20px;
     }
 
     .communication_1_text {
@@ -250,7 +252,7 @@
     .communication_1_img {
         width: 130px;
         margin-left: 240px;
-        margin-top: 60px;
+        margin-top: 30px;
         position: absolute;
         z-index: 11;
     }
@@ -382,14 +384,14 @@
     .communication_for_block_org_block {
         position: absolute;
         margin-top: 58px;
-        margin-left: -90px;
+        margin-left: -95px;
     }
 
 
     .communication_for_block_org_block p {
         display: flex;
         color: white;
-        width: 291px;
+        width: 351px;
         margin-bottom: -8px; /* Расстояние между параграфами */
         font-size: 12px;
         font-family: "Cera Pro Regular", sans-serif;
@@ -453,7 +455,7 @@
     .communication_for_block_ur_block p {
         display: flex;
         color: white;
-        width: 300px;
+        width: 360px;
         margin-bottom: -10px; /* Расстояние между параграфами */
         font-size: 12px;
         font-family: "Cera Pro Regular", sans-serif;
@@ -462,6 +464,14 @@
     /* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
     .communication_for_block_ur_block p:last-child {
         margin-bottom: 0;
+    }
+
+        .communication_for_block_ur_block p:nth-child(2) {
+        margin-top: 10px;
+    }
+
+                .communication_for_block_ur_block p:nth-child(3) {
+        margin-top: 62px;
     }
 
     .communication_for_block_ur_text_1 {
@@ -1055,8 +1065,8 @@
 
 .geo_body_uslugi_box_title_1 {
     margin-top: 7px;
-    width: 181px;
-    margin-left: 8px;
+    width: 161px;
+    margin-left: 4px;
     font-size: 12px;
     font-weight: 700;
     font-family: "Cera Pro Bold", serif;
@@ -1069,8 +1079,8 @@
     font-size: 10px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 58px;
-    margin-left: 8px;
+    margin-top: 57px;
+    margin-left: 4px;
     width: 175px;
 
 }
@@ -1078,7 +1088,7 @@
 .geo_body_price {
     position: absolute;
     margin-top: 43px;
-    margin-left: 8px;
+    margin-left: 4px;
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 900;
@@ -1114,8 +1124,8 @@
 
 .geo_body_uslugi_box_title_2 {
     margin-top: 7px;
-    width: 181px;
-    margin-left: 8px;
+    width: 161px;
+    margin-left: 4px;
     font-size: 12px;
     font-weight: 700;
     font-family: "Cera Pro Bold", serif;
@@ -1129,7 +1139,7 @@
     color: #000000;
     font-family: "Cera Pro Regular", serif;
     margin-top: 57px;
-    margin-left: 8px;
+    margin-left: 4px;
     width: 175px;
 
 }
@@ -1177,7 +1187,7 @@
 
 .geo_body_uslugi_box_title_3 {
     margin-top: 7px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 700;
@@ -1193,8 +1203,11 @@
     font-family: "Cera Pro Regular", serif;
     margin-top: 57px;
     margin-left: 8px;
-    width: 160px;
+    width: 176px;
+}
 
+.geo_body_text3 span{
+    display: none;
 }
 
 .geo_body_price3 {
@@ -1236,7 +1249,7 @@
 
 .geo_body_uslugi_box_title_4 {
     margin-top: 7px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 700;
@@ -1250,7 +1263,7 @@
     font-size: 9px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 57px;
+    margin-top: 55px;
     margin-left: 8px;
     width: 162px;
 
@@ -1258,7 +1271,7 @@
 
 .geo_body_price4 {
     position: absolute;
-    margin-top: 45px;
+    margin-top: 43px;
     margin-left: 8px;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -1295,7 +1308,7 @@
 
 .geo_body_uslugi_box_title_5 {
     margin-top: 7px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 700;
@@ -1354,7 +1367,7 @@
 
 .geo_body_uslugi_box_title_6 {
     margin-top: 7px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 700;
@@ -1372,6 +1385,10 @@
     margin-left: 8px;
     width: 165px;
 
+}
+
+.geo_body_text6 span{
+    display: none;
 }
 
 .geo_body_price6 {

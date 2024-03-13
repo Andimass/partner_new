@@ -344,7 +344,7 @@ return (
                    <h2 className='geo_body_uslugi_box_title_3'>Проектирование кабельных линий электропередач - 10 кВ</h2>
                    <img className='geo_body_box3_image' src='/public/elec3.jpg'/>
                    <p className='geo_body_price3'>от 75.000 руб.</p>
-                    <p className='geo_body_text3'>Разработка проектов кабельных линий электропередач 10 кВ, обеспечивающих надежность и соответствие техническим требованиям.</p>
+                   <p className='geo_body_text3'>Разработка проектов кабельных линий электропередач 10 кВ<span>, обеспечивающих надежность и соответствие техническим требованиям.</span></p>
                     <input className={`geo_body_uslugi_box_strela3 ${activeHandler === 3 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(3)} alt=''/>
                     {activeHandler === 3 && (
                     <div className='dop_3'>
@@ -386,7 +386,7 @@ return (
                        <h2 className='geo_body_uslugi_box_title_6'>Проектирование РТП, КРУН, БКРТП - 10/0.4 кВ</h2>
                    <img className='geo_body_box6_image' src='/public/elec7.jpg'/>
                    <p className='geo_body_price6'>от 100.000 руб.</p>
-                    <p className='geo_body_text6'>Создание проектов распределительных трансформаторных подстанций, комплектных распределительных устройств и блочных КРТП 10/0.4 кВ с соблюдением всех стандартов.</p>
+                    <p className='geo_body_text6'>Создание проектов распределительных трансформаторных подстанций<span>, комплектных распределительных устройств и блочных КРТП 10/0.4 кВ</span> с соблюдением всех стандартов.</p>
                     <input className={`geo_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
                     {activeHandler === 7 && (
                     <div className='dop_6'>
@@ -564,7 +564,7 @@ return (
                     <p className='communication_footer_2_text_3'>mail@partner-krd.ru</p>
                 </div>
                 <div className='communication_footer_7'>
-                    <p className='communication_footer_2_text_1'>ИФОРМАЦИЯ</p>
+                    <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
                     <p className='communication_footer_2_text_11'>Контакты</p>
                     <p className='communication_footer_2_text_21'>О компании</p>
                 </div>

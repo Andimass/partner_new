@@ -596,7 +596,7 @@ return (
                     <p className='geodezic_footer_2_text_3'>mail@partner-krd.ru</p>
                 </div>
                 <div className='geodezic_footer_7'>
-                    <p className='geodezic_footer_2_text_1'>ИФОРМАЦИЯ</p>
+                    <p className='geodezic_footer_2_text_1'>ИНФОРМАЦИЯ</p>
                     <p className='geodezic_footer_2_text_11'>Контакты</p>
                     <p className='geodezic_footer_2_text_21'>О компании</p>
                 </div>

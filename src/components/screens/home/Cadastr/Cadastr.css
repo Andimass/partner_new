@@ -250,7 +250,7 @@
     .cadastr_1_img {
         width: 130px;
         margin-left: 240px;
-        margin-top: 60px;
+        margin-top: 10px;
         position: absolute;
         z-index: 11;
     }
@@ -1088,7 +1088,7 @@
 
 
 .cadastr_body_uslugi_box2 {
-    width: 170px;
+    width: 175px;
     height: 115px;
     background-color: white;
     position: absolute;
@@ -1101,7 +1101,7 @@
 
 
 .cadastr_body_box2_image {
-    width: 170px;
+    width: 175px;
     height: 92px;
     align-items: center;
     border-radius: 4px 4px 0 0;
@@ -1115,7 +1115,7 @@
 .cadastr_body_uslugi_box_title_2 {
     margin-top: 7px;
     width: 181px;
-    margin-left: 8px;
+    margin-left: 4px;
     font-size: 12px;
     font-weight: 700;
     font-family: "Cera Pro Bold", serif;
@@ -1128,16 +1128,16 @@
     font-size: 10px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 57px;
-    margin-left: 8px;
-    width: 175px;
+    margin-top: 37px;
+    margin-left: 4px;
+    width: 170px;
 
 }
 
 .cadastr_body_price2 {
     position: absolute;
-    margin-top: 43px;
-    margin-left: 8px;
+    margin-top: 23px;
+    margin-left: 4px;
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 900;
@@ -1191,7 +1191,7 @@
     font-size: 10px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 57px;
+    margin-top: 37px;
     margin-left: 8px;
     width: 160px;
 
@@ -1199,7 +1199,7 @@
 
 .cadastr_body_price3 {
     position: absolute;
-    margin-top: 43px;
+    margin-top: 23px;
     margin-left: 8px;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -1236,7 +1236,7 @@
 
 .cadastr_body_uslugi_box_title_4 {
     margin-top: 7px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 700;
@@ -1250,7 +1250,7 @@
     font-size: 9px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 57px;
+    margin-top: 45px;
     margin-left: 8px;
     width: 162px;
 
@@ -1258,7 +1258,7 @@
 
 .cadastr_body_price4 {
     position: absolute;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-left: 8px;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -1309,7 +1309,7 @@
     font-size: 9px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 50px;
+    margin-top: 47px;
     margin-left: 8px;
     width: 155px;
 
@@ -1486,7 +1486,7 @@
     font-size: 9px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 45px;
+    margin-top: 50px;
     margin-left: 8px;
     width: 155px;
 
@@ -1494,7 +1494,7 @@
 
 .cadastr_body_price8 {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 37px;
     margin-left: 8px;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -2212,8 +2212,8 @@
     width: 390px;
     height: 164px;
     background-color: #2c2b2b;
-    margin-top: 3015px;
-
+    top: 2115px;
+    left: 0px;
 
 .cadastr_footer_1 {
     width: 10px;

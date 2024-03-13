@@ -6,8 +6,6 @@
   .custom-zoom-page{
     max-width: 400px;
     max-height: 2800px;
-    overflow-x: hidden;
-    overflow-y: hidden ;
 
 .Header {
   width: 390px;
@@ -192,15 +190,17 @@
     height: 55px;
 }
 
+
 .header_menu_opacity_bgc{
-    width: 800px;
-    height: 1330px;
+    width: 1px;
+    height: 1px;
     background-color: black;
     margin-top: -50px;
-    margin-left: 1480px;
+    margin-left: 1px;
     position: absolute;
     z-index: 1111;
   opacity: 0.2;
+  display: none;
 }
 
 .scaled-iframe-container {
@@ -2633,6 +2633,7 @@
     width: 1px;
     height: 1px;
     visibility: hidden;
+    display: none;
   }
 
   .header_our_partner {

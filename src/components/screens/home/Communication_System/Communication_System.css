@@ -1783,6 +1783,10 @@
     margin-top: -20px;
 }
 
+.communication_faq_block_2_title span{
+    display: none;
+}
+
 .communication_faq_block_2_title_strela1 {
     position: absolute;
     margin-top: -23px;

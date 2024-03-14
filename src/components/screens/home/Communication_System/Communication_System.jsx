@@ -513,7 +513,7 @@ return (
                           )}
                     </div>
                     <div className={`communication_faq_block_8 ${activeHandler === 8 ? 'faq_8' : ''} ${activeHandler === 7 ? 'faq_8_8' : ''}`} onClick={() => handleClick(8)}>
-                        <p className='communication_faq_block_2_title'>Каков порядок оплаты по Договору электрификации объектов   ?</p>
+                        <p className='communication_faq_block_2_title'>Каков порядок оплаты по Договору электрификации <span>объектов</span>   ?</p>
                         <input className={`communication_faq_block_8_title_strela1 ${activeHandler === 8 ? 'strela-digris_8': ''}`} type="image" src='/public/close_7903969.png' onClick={() => handleClick(8)} alt=''/>
                         {activeHandler === 8 && (
                         <div className='faq_8'>

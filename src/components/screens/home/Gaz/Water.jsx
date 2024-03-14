@@ -280,7 +280,7 @@ return (
                     <h2 className='water_body_uslugi_box_title_1'>Проектирвание фикальных канализаций </h2>
                     <img className='water_body_box1_image' src='/public/kal.webp'/>
                     <p className='water_body_price'>от 25.000 руб.</p>
-                    <p className='water_body_text'>Проектирование систем фекальной канализации: разработка, оптимизация, обеспечение экологической безопасности.</p>
+                    <p className='water_body_text'>Проектирование систем фекальной канализации<span>: разработка, оптимизация, обеспечение экологической безопасности</span>.</p>
                     <input className={`water_body_uslugi_box_strela1 ${activeHandler === 1 ? 'strela-digris': ''}`} type="image" onClick={() => handleClick(1)} alt=''/>
                     {activeHandler === 1 && (
                     <div className='dop_1'>
@@ -310,7 +310,7 @@ return (
                    <h2 className='water_body_uslugi_box_title_3'>Проектирование водопроводов низкого давления</h2>
                    <img className='water_body_box3_image' src='/public/voda2.webp'/>
                    <p className='water_body_price3'>от 75.000 руб.</p>
-                    <p className='water_body_text3'>Проектирование водопроводных сетей низкого давления для надежного водоснабжения и оптимальной работы системы.</p>
+                    <p className='water_body_text3'>Проектирование водопроводных сетей низкого давления для надежного водоснабжения<span> и оптимальной работы системы</span>.</p>
                     <input className={`water_body_uslugi_box_strela3 ${activeHandler === 3 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(3)} alt=''/>
                     {activeHandler === 3 && (
                     <div className='dop_3'>
@@ -324,7 +324,7 @@ return (
                    <h2 className='water_body_uslugi_box_title_4'>Проектирование водопроводов среднего давления</h2>
                    <img className='water_body_box4_image' src='/public/voda3.webp'/>
                    <p className='water_body_price4'>от 70.000 руб.</p>
-                    <p className='water_body_text4'>Разработка систем водоснабжения среднего давления для стабильной подачи воды в городские условия.</p>
+                   <p className='water_body_text4'>Разработка систем водоснабжения среднего давления<span> для стабильной подачи воды в городские условия</span>.</p>
                     <input className={`water_body_uslugi_box_strela3 ${activeHandler === 5 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(5)} alt=''/>
                     {activeHandler === 5 && (
                     <div className='dop_4'>
@@ -338,7 +338,7 @@ return (
                    <h2 className='water_body_uslugi_box_title_5'>Проектирование водопроводов высокого давления</h2>
                    <img className='water_body_box5_image' src='/public/voda4.webp'/>
                    <p className='water_body_price5'>от 150.000 руб.</p>
-                    <p className='water_body_text5'>Проектирование высокодавленных водопроводов для эффективного распределения воды на большие расстояния.</p>
+                    <p className='water_body_text5'>Проектирование высокодавленных водопроводов<span> для эффективного распределения воды на большие расстояния</span>.</p>
                     <input className={`water_body_uslugi_box_strela3 ${activeHandler === 6 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(6)} alt=''/>
                     {activeHandler === 6 && (
                     <div className='dop_5'>
@@ -366,7 +366,7 @@ return (
                    <h2 className='water_body_uslugi_box_title_7'>Проектирование промышленных канализаций</h2>
                    <img className='water_body_box7_image' src='/public/voda6.webp'/>
                    <p className='water_body_price7'>от 12.000 руб.</p>
-                    <p className='water_body_text7'>Разработка систем промышленной канализации: эффективный отвод, очистка сточных вод, экологическая безопасность.</p>
+                    <p className='water_body_text7'>Разработка систем промышленной канализации: эффективный отвод, очистка сточных вод<span>, экологическая безопасность</span>.</p>
                     <input className={`water_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
                     {activeHandler === 7 && (
                     <div className='dop_6'>

@@ -1027,7 +1027,7 @@ p.setup = () => {
                                 <div className='header_top_comp_2_title_411'>
                                     <p className='header_top_comp_2_title_41'>Проектирование современных систем связи с использованием оптического волокна. Расчет тяжений несущих конструкций, в том числе опор воздушных линий электропередачи</p>
                                 </div>
-                                <div><a className='header_top_comp_2_title_5' href='/'>Проектирование водопровода и канализации</a>
+                                <div><a className='header_top_comp_2_title_5' href='/water'>Проектирование водопровода и канализации</a>
                                     <img ref={gifImageRef} className='header_top_comp_2_title_5_img' src='/public/обводка анимация.gif'/></div>
                                 <div className='header_top_comp_2_title_511'>
                                     <p className='header_top_comp_2_title_51'>Комплексное проектирование и расчет наружних инженерных канализационных и водопроводных систем любой сложности. Центральное и индивидуальное водоснабжение и водоотведение.</p>

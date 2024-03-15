@@ -281,7 +281,7 @@ return (
                     <h2 className='geologic_body_uslugi_box_title_1'>Буровые работы (геодезические скважины)</h2>
                     <img className='geologic_body_box1_image' src='/public/DALL·E%202024-03-11%2009.22.36%20-%20A%20realistic%20depiction%20of%20a%20drilling%20operation%20for%20geodesic%20boreholes.%20The%20scene%20includes%20a%20drilling%20rig%20set%20up%20in%20an%20open%20field%20with%20various%20pieces%20of.webp'/>
                     <p className='geologic_body_price'>от 2.000 руб. за метр</p>
-                    <p className='geologic_body_text'>Включают процесс создания скважин для исследования и мониторинга геологических условий территории, оценки грунтовых вод и подземных условий.</p>
+                    <p className='geologic_body_text'>Включают процесс создания скважин для исследования и мониторинга геологических условий территории<span>, оценки грунтовых вод и подземных условий</span>.</p>
                     <input className={`geologic_body_uslugi_box_strela1 ${activeHandler === 1 ? 'strela-digris': ''}`} type="image" onClick={() => handleClick(1)} alt=''/>
                     {activeHandler === 1 && (
                     <div className='dop_1'>
@@ -296,7 +296,7 @@ return (
                     <h2 className='geologic_body_uslugi_box_title_2'>Камеральные работы с прохождением экспертизы</h2>
                     <img className='geologic_body_box2_image' src='/public/cameral.webp'/>
                     <p className='geologic_body_price2'>от 25.000 руб.</p>
-                    <p className='geologic_body_text2'>Камеральные работы с экспертизой включают анализ проекта, подготовку документации и прохождение необходимых экспертных оценок.</p>
+                   <p className='geologic_body_text2'>Камеральные работы с <span>экспертизой</span> включают анализ проекта, подготовку документации и прохождение <span>необходимых</span> экспертных оценок.</p>
                     <input className={`geologic_body_uslugi_box_strela2 ${activeHandler === 2 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(2)} alt=''/>
                     {activeHandler === 2 && (
                     <div className='dop_2'>
@@ -311,7 +311,7 @@ return (
                    <h2 className='geologic_body_uslugi_box_title_3'>Инженерно - Геологическая выработка</h2>
                    <img className='geologic_body_box3_image' src='/public/virob.webp'/>
                    <p className='geologic_body_price3'>от 8.000 руб.</p>
-                    <p className='geologic_body_text3'>Инженерно-геологическая выработка представляет собой комплекс исследований грунтов и геологических условий участка для обоснования проектных решений в строительстве.</p>
+                    <p className='geologic_body_text3'>Инженерно-геологическая выработка представляет собой комплекс исследований грунтов и геологических условий участка<span> для обоснования проектных решений в строительстве</span>.</p>
                     <input className={`geologic_body_uslugi_box_strela3 ${activeHandler === 3 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(3)} alt=''/>
                     {activeHandler === 3 && (
                     <div className='dop_3'>
@@ -339,7 +339,7 @@ return (
                    <h2 className='geologic_body_uslugi_box_title_5'>Инженерно - Геологическая съемка</h2>
                    <img className='geologic_body_box5_image' src='/public/symka.webp'/>
                    <p className='geologic_body_price5'>от 8.000 руб.</p>
-                    <p className='geologic_body_text5'>Комплекс полевых и лабораторных исследований, изучение геологического строения местности, физико-механических и водно-геологических свойств грунтов для проектирования и строительства объектов.</p>
+                    <p className='geologic_body_text5'>Комплекс полевых и лабораторных исследований, изучение геологического строения местности<span>, физико-механических и водно-геологических свойств грунтов</span> для проектирования и строительства объектов.</p>
                     <input className={`geologic_body_uslugi_box_strela3 ${activeHandler === 6 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(6)} alt=''/>
                     {activeHandler === 6 && (
                     <div className='dop_5'>

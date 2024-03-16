@@ -1,5 +1,6 @@
 import './Water.css'
 import React, {useEffect, useState, useRef} from "react";
+import {Helmet} from "react-helmet";
 
 const Water = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
@@ -160,6 +161,12 @@ return (
     </head>
         <body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <Helmet>
+            <meta charSet="UTF-8"/>
+            <title>Проектирование водоснабжения и канализаций - ПАРТНЕР</title>
+            <meta name="description" content="Комплексные решения в области проектирования систем водоснабжения. Получите консультацию сейчас!"/>
+            <meta name="keywords" content="проектирование, проектирование водоснабжения, водоснабжение, проектирование канализаций, канализационные работы, канализации"/>
+            </Helmet>
         <div className='Water'>
             <div className='header_header'>
                 <a href="/">

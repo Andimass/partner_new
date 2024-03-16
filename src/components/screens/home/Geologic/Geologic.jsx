@@ -1,7 +1,7 @@
-import './Project.css'
+import './Geologic.css'
 import React, {useEffect, useState, useRef} from "react";
 
-const Project = () =>  {
+const Geologic = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
 
     const handleClick = (handlerId) => {
@@ -408,4 +408,4 @@ return (
 }
 
 
-export default Project
+export default Geologic

@@ -3598,6 +3598,7 @@
     filter: url(#ambilight) grayscale(0%);
 }
 
+
 .header_top_comp_2_title_1:hover + .header_top_comp_2_title_1_img{
     display: block;
 }
@@ -3641,7 +3642,7 @@
 .header_top_comp_2_title_2_img {
     position: absolute;
     width: 380px;
-    height: 350px;
+    height: 380px;
     margin-left: 1080px;
     margin-top: 500px;
     animation: opacity 0.1s ;  /* Плавный переход между состояниями видимости */
@@ -3655,10 +3656,10 @@
 
 .header_top_comp_2_title_3_img {
     position: absolute;
-    width: 350px;
-    height: 350px;
-    margin-left: 1080px;
-    margin-top: 700px;
+    width: 390px;
+    height: 390px;
+    margin-left: 1070px;
+    margin-top: 695px;
     animation: opacity 0.1s ;  /* Плавный переход между состояниями видимости */
    opacity: 0;
     z-index: 50 ;
@@ -3781,7 +3782,7 @@
     margin-left: 1150px;
     margin-top: 610px;
     width: 200px;
-    font-size: 26px;
+    font-size: 28px;
     font-family: "Cera Pro Medium", sans-serif;
     z-index: 999 ;
   color: black;
@@ -3814,8 +3815,8 @@
     position: absolute;
     margin-left: 1150px;
     margin-top: 810px;
-    width: 230px;
-    font-size: 25px;
+    width: 260px;
+    font-size: 28px;
     font-family: "Cera Pro Medium", sans-serif;
     color: black;
     text-decoration: none;
@@ -3841,11 +3842,12 @@
     position: absolute;
     margin-left: 1850px;
     margin-top: 150px;
-    width: 260px;
-    font-size: 25px;
+    width: 280px;
+    font-size: 28px;
     font-family: "Cera Pro Medium", sans-serif;
     z-index: 999 ;
     color: black;
+    line-height: 1.35 ;
 }
 
 .header_top_comp_2_title_4:after{
@@ -3854,7 +3856,7 @@
     border: 1px black solid;
     width: 620px;
     margin-top: 67px;
-    margin-left: -100px;
+    margin-left: -106px;
 }
 
 .header_top_comp_2_title_411 {
@@ -3877,7 +3879,7 @@
     margin-left: 1850px;
     margin-top: 340px;
     width: 200px;
-    font-size: 26px;
+    font-size: 28px;
     font-family: "Cera Pro Medium", sans-serif;
     z-index: 999 ;
     color: black;
@@ -3887,9 +3889,9 @@
     position: absolute;
     content: '';
     border: 1px black solid;
-    width: 650px;
-    margin-top: 85px;
-    margin-left: -160px;
+    width: 620px;
+    margin-top: 87px;
+    margin-left: -194px;
 }
 
 .header_top_comp_2_title_511 {

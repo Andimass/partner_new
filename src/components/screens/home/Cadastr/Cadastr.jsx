@@ -1,5 +1,6 @@
 import './Cadastr.css'
 import React, {useEffect, useState, useRef} from "react";
+import {Helmet} from "react-helmet";
 
 const Cadastr = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
@@ -160,6 +161,12 @@ return (
     </head>
         <body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <Helmet>
+            <meta charSet="UTF-8"/>
+            <title>Кадастровые работы - ПАРТНЕР</title>
+            <meta name="description" content="Комплексные решения в области кадастровых работ. Получите консультацию сейчас!"/>
+            <meta name="keywords" content="кадастр, кадастровые работы, межевание участка, межевание земельного участка, Снижение кадастровой стоимости"/>
+            </Helmet>
         <div className='cadastr'>
             <div className='header_header'>
                 <a href="/">

@@ -1,5 +1,6 @@
-import './Communication_System.css'
+import './Electro.css'
 import React, {useEffect, useState, useRef} from "react";
+import {Helmet} from "react-helmet";
 
 const Communication = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
@@ -160,6 +161,13 @@ return (
     </head>
         <body className='custom-zoom-page_cs'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <Helmet>
+            <meta charSet="UTF-8"/>
+            <title>Проектирование систем электроснабжения - ПАРТНЕР</title>
+            <meta name="description" content="Комплексные решения в области проектирования и монтажа систем электроснабжения. Профессиональные консультации и реализация проектов под ключ. Получите консультацию сейчас!"/>
+            <meta name="keywords" content="проектирование, электроснабжение, проектирование электроснабжения, монтаж электроснабжения, инженерные системы, электрические сети, электроэнергия"/>
+        </Helmet>
+
         <div className='Communication'>
             <div className='header_header'>
                 <a href="/">

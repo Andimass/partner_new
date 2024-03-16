@@ -20,6 +20,17 @@
         z-index: 1999;
     }
 
+          .Header_menu_icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 700px;
+  position: fixed;
+  margin-top: 5px;
+  overflow: hidden;
+  z-index: 10110;
+    zoom: 50%;
+}
+
     .header_animation_square {
         position: fixed;
         width: 10px; /* Та же ширина, что и у .menu_supply */
@@ -1114,7 +1125,7 @@
 
 .gazification_body_uslugi_box_title_2 {
     margin-top: 5px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 13px;
     font-weight: 700;
@@ -1299,7 +1310,7 @@
 
 .gazification_body_uslugi_box_title_5 {
     margin-top: 5px;
-    width: 181px;
+    width: 151px;
     margin-left: 8px;
     font-size: 13px;
     font-weight: 700;
@@ -1313,10 +1324,10 @@
     font-size: 12px;
     color: #000000;
     font-family: "Cera Pro Regular", serif;
-    margin-top: 45px;
+    margin-top: 57px;
     margin-left: 8px;
     width: 160px;
-    line-height: 17px;
+    line-height: 1.1;
 }
 
 .gazification_body_text5 span{
@@ -1325,7 +1336,7 @@
 
 .gazification_body_price5 {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 8px;
     letter-spacing: 0.5px;
     font-size: 12px;
@@ -1362,7 +1373,7 @@
 
 .gazification_body_uslugi_box_title_6 {
     margin-top: 5px;
-    width: 181px;
+    width: 161px;
     margin-left: 8px;
     font-size: 13px;
     font-weight: 700;

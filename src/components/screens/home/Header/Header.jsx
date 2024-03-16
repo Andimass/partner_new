@@ -3,6 +3,7 @@ import './Header.scss'
 import React, {useEffect, useState, useRef} from "react";
 import $ from "jquery";
 import p5 from "p5";
+import {Helmet} from "react-helmet";
 
 let currentRotation = 0; // Текущий угол поворота
 function rotateCircles() {
@@ -680,6 +681,7 @@ p.setup = () => {
                 titleElement.removeEventListener('mouseleave', resetStyle);
             }
         };
+
     }, []);
 
         useEffect(() => {
@@ -878,6 +880,55 @@ p.setup = () => {
         };
     }, []);
 
+        useEffect(() => {
+        // Функция для изменения стиля
+        const applyStyle = () => {
+            const circle = document.querySelector('.header_top_circle_3');
+            if (circle) {
+                circle.style.filter = 'url(#ambilight) grayscale(0%)';
+            }
+            const circle_2 = document.querySelector('.header_top_circle_5');
+            if (circle_2) {
+                circle_2.style.filter = 'url(#ambilight) grayscale(0%)';
+            }
+            const circle_3 = document.querySelector('.header_top_circle_8');
+            if (circle_3) {
+                circle_3.style.filter = 'url(#ambilight) grayscale(0%)';
+            }
+        };
+
+        // Функция для сброса стиля
+        const resetStyle = () => {
+            const circle = document.querySelector('.header_top_circle_3');
+            if (circle) {
+                circle.style.filter = '';
+            }
+            const circle_2 = document.querySelector('.header_top_circle_5');
+            if (circle_2) {
+                circle_2.style.filter = '';
+}            const circle_3 = document.querySelector('.header_top_circle_8');
+            if (circle_3) {
+                circle_3.style.filter = '';
+            }
+
+        };
+
+        // Получаем элемент для наведения
+        const titleElement = document.querySelector('.header_top_comp_2_title_7');
+        if (titleElement) {
+            titleElement.addEventListener('mouseenter', applyStyle);
+            titleElement.addEventListener('mouseleave', resetStyle);
+        }
+
+        // Очистка при размонтировании компонента
+        return () => {
+            if (titleElement) {
+                titleElement.removeEventListener('mouseenter', applyStyle);
+                titleElement.removeEventListener('mouseleave', resetStyle);
+            }
+        };
+    }, []);
+
 
     const [number, setNumber] = useState(12683); // Начальное значение
 
@@ -893,13 +944,17 @@ p.setup = () => {
         return (
         <html>
         <head>
-         <title>Партнер</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"/>
-
+            <Helmet>
+            <meta charSet="UTF-8"/>
+            <title>Проектирование газоснабжения и энергоснабжения, геодезические и кадастровые работы - ПАРТНЕР</title>
             <meta name="yandex-verification" content="ee98594a3963c95e" />
+            <meta name="description" content="Комплексные решения в области проектирования систем газоснабжения и энергоснабжения. Профессиональные геодезические и кадастровые услуги для вашего проекта. Получите консультацию сейчас!"/>
+            <meta name="keywords" content="проектирование, проектирование газоснабжения, энергоснабжение, геодезические услуги, кадастровые работы, инженерные изыскания, кадастр недвижимости"/>
+            </Helmet>
             </head>
             <body className="custom-zoom-page">
             <div className='Header'>

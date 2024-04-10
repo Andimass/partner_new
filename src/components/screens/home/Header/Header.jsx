@@ -954,6 +954,7 @@ p.setup = () => {
             <meta name="yandex-verification" content="ee98594a3963c95e" />
             <meta name="description" content="Комплексные решения в области проектирования систем газоснабжения и энергоснабжения. Профессиональные геодезические и кадастровые услуги для вашего проекта. Получите консультацию сейчас!"/>
             <meta name="keywords" content="проектирование, проектирование газоснабжения, энергоснабжение, геодезические услуги, кадастровые работы, инженерные изыскания, кадастр недвижимости"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Helmet>
             </head>
             <body className="custom-zoom-page">
@@ -999,7 +1000,7 @@ p.setup = () => {
     </filter>
 </svg>
             <div className='header_header'>
-                <img className='header_logo' src='/public/logo_new.png'/>
+                <img className='header_logo' src='/public/logo_new.png' alt='логотип'/>
 
                 {/*<div className='header_animation_square '>*/}
                 {/*        <input className={`header_menu_supply ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img1.png' onClick={() => handleClick(11)} alt=''/>*/}
@@ -1045,8 +1046,8 @@ p.setup = () => {
                         <p>info@partner-tech.ru</p>
                         <p>+ 7 (918) 331-25-57</p>
                         <div className='header_top'>
-                            <img className='header_phone' src='/public/fone_1.png'/>
-                            <img className='circle_img' src='/public/logo_big.png'/>
+                            <img className='header_phone' src='/public/fone_1.png' alt='фон'/>
+                            <img className='circle_img' src='/public/logo_big.png' alt='логотип'/>
                         </div>
                     </div>
                        <div className='header_top_2'>

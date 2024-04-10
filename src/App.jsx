@@ -12,9 +12,16 @@ import Communication_System from "./components/screens/home/Communication_System
 import About from "./components/screens/home/About/About.jsx";
 import Gazification from "./components/screens/home/Gazification/Gazification.jsx";
 import Geodezic from "./components/screens/home/Geodezic/Geodezic";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
+      <>
+      <Helmet>
+        <title>Проектирование газоснабжения и энергоснабжения, геодезические и кадастровые работы - ПАРТНЕР</title>
+        <meta name="description" content="Комплексные решения в области проектирования систем газоснабжения и энергоснабжения. Профессиональные геодезические и кадастровые услуги для вашего проекта. Получите консультацию сейчас!"/>
+        <meta name="keywords" content="проектирование, проектирование газоснабжения, энергоснабжение, геодезические услуги, кадастровые работы, инженерные изыскания, кадастр недвижимости"/>
+      </Helmet>
     <Routes>
       <Route path='/' element={<Header />}/>
        <Route path='/geo' element={<Geo/>}/>
@@ -28,6 +35,7 @@ function App() {
         <Route path='/project_supply' element={<Project_Supply/>}/>
         <Route path='/about' element={<About/>}/>
     </Routes>
+  </>
   );
 }
 

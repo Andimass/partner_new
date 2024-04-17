@@ -784,45 +784,32 @@ useEffect(() => {
                 <div className='about_container_4_cifr'>
                 <p className='about_container_4_text_1' id='about_1'>Цифровые навыки</p>
                 <img className='about_container_4_text_1_img_1' src='/public/IMG_4253_12_11zon (1).jpg'/>
-                <img className='about_container_4_text_1_img_2' src='/public/IMG_4097-2_5_11zon (1).jpg'/>
-                <img className='about_container_4_text_1_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_1_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
+                <img className='about_container_4_text_1_img_2' src='/public/2228-fotor-2024041782454.jpg'/>
                     </div>
                 <div className='about_container_4_mat'>
                 <p className='about_container_4_text_2' id='about_2'>Материальное обеспечение</p>
                 <img className='about_container_4_text_2_img_1' src='/public/IMG_4063-2_1_11zon (1).jpg'/>
-                <img className='about_container_4_text_2_img_2' src='/public/IMG_4097-2_5_11zon (1).jpg'/>
-                <img className='about_container_4_text_2_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_2_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
+                <img className='about_container_4_text_2_img_2' src='/public/IMG_4103 (1) (1) (1).png'/>
                 </div>
                 <div className='about_container_4_pers'>
                 <p className='about_container_4_text_3' id='about_3'>Работа с персоналом</p>
                 <img className='about_container_4_text_3_img_1' src='/public/IMG_4231_5_11zon.jpg'/>
-                <img className='about_container_4_text_3_img_2' src='/public/IMG_4097-2_5_11zon (1).jpg'/>
-                <img className='about_container_4_text_3_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_3_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
-
+                <img className='about_container_4_text_3_img_2' src='/public/IMG_4148-2_3_11zon%20(1).jpg'/>
                 </div>
                 <div className='about_container_4_otv'>
                 <p className='about_container_4_text_4' id='about_4'>Ответственность</p>
-                <img className='about_container_4_text_4_img_1' src='/public/IMG_4148-2_3_11zon%20(1).jpg'/>
+                <img className='about_container_4_text_4_img_1' src='/public/IMG_4428.jpg'/>
                 <img className='about_container_4_text_4_img_2' src='/public/IMG_4254_13_11zon.jpg'/>
-                <img className='about_container_4_text_4_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_4_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
                 </div>
                 <div className='about_container_4_log'>
                 <p className='about_container_4_text_5' id='about_5'>Логистика</p>
-                <img className='about_container_4_text_5_img_1' src='/public/IMG_4063-2_1_11zon (1).jpg'/>
-                <img className='about_container_4_text_5_img_2' src='/public/IMG_4097-2_5_11zon (1).jpg'/>
-                <img className='about_container_4_text_5_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_5_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
+                <img className='about_container_4_text_5_img_1' src='/public/IMG_4434.jpg'/>
+                <img className='about_container_4_text_5_img_2' src='/public/IMG_4439.jpg'/>
                 </div>
                 <div className='about_container_4_pro'>
                 <p className='about_container_4_text_6' id='about_6'>Проектирование</p>
-                <img className='about_container_4_text_6_img_1' src='/public/IMG_4063-2_1_11zon (1).jpg'/>
-                <img className='about_container_4_text_6_img_2' src='/public/IMG_4097-2_5_11zon (1).jpg'/>
-                <img className='about_container_4_text_6_img_3' src='/public/IMG_4103 (1) (1) (1).png'/>
-                <img className='about_container_4_text_6_img_4' src='/public/IMG_4111-2_7_11zon (1).jpg'/>
+                <img className='about_container_4_text_6_img_1' src='/public/IMG_4427 (1).jpg'/>
+                <img className='about_container_4_text_6_img_2' src='/public/IMG_4423 (1).jpg'/>
                 </div>
             </div>
             <div className='about_footer'>

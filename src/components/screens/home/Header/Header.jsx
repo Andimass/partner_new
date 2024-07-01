@@ -4,6 +4,11 @@ import React, {useEffect, useState, useRef} from "react";
 import $ from "jquery";
 import p5 from "p5";
 import {Helmet} from "react-helmet";
+import RegistrationForm from './RegistrationForm'; // Импортируем компонент формы регистрации
+import LoginForm from './LoginForm'; // Импортируем компонент формы авторизации
+import UsersList from './UsersList'; // Импортируем компонент списка пользователей
+import ProductForm from './ProductForm';
+import Cart from './Cart';
 
 let currentRotation = 0; // Текущий угол поворота
 function rotateCircles() {
@@ -940,6 +945,12 @@ p.setup = () => {
         return () => clearInterval(interval); // Очищаем интервал при размонтировании компонента
     }, []);
 
+  const [loggedInUser, setLoggedInUser] = useState(null);
+
+  const handleLogin = (email) => {
+    setLoggedInUser(email);
+  };
+
 
         return (
         <html>
@@ -1001,16 +1012,6 @@ p.setup = () => {
 </svg>
             <div className='header_header'>
                 <img className='header_logo' src='/public/logo_new.png' alt='логотип'/>
-
-                {/*<div className='header_animation_square '>*/}
-                {/*        <input className={`header_menu_supply ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img1.png' onClick={() => handleClick(11)} alt=''/>*/}
-                {/*         <input className={`header_menu_supply2 ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img2.png' onClick={() => handleClick(11)} alt=''/>*/}
-                {/*        <input className={`header_menu_supply3 ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img3.png' onClick={() => handleClick(11)} alt=''/>*/}
-
-                {/*        <input className={`header_menu_supply4 ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img1.png' onClick={() => handleClick(11)} alt=''/>*/}
-                {/*        <input className={`header_menu_supply5 ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img2.png' onClick={() => handleClick(11)} alt=''/>*/}
-                {/*        <input className={`header_menu_supply6 ${activeHandler === 11 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img3.png' onClick={() => handleClick(11)} alt=''/>*/}
-                {/*    </div>*/}
                 <div className={`Header_menu_icon ${activeHandler === 11 ? 'menu_opacity' : ''}`} onClick={() => handleClick(11)}>
                     <div>
                         <p className='Header_menu_icon_1'></p>
@@ -1029,6 +1030,13 @@ p.setup = () => {
                                 <iframe src="http://www.partner-tech.ru" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
+                                <div className="forms">
+                                   <RegistrationForm />
+                                    <LoginForm onLogin={handleLogin} />
+                                    <ProductForm />
+                                    {loggedInUser && <Cart userId={loggedInUser} />}
+                                </div>
+
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
                                 <a className='header_menu_menu_2' href='/'>Цены</a>
                                 <a className='header_menu_menu_3' href='/'>Услуги</a>

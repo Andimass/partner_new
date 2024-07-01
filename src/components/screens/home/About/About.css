@@ -1295,6 +1295,7 @@
     margin-top: 60px;
     margin-left: 90px;
     width: 130px;
+    position: absolute;
 }
 
 .about_container_4_text_2_img_1{
@@ -1304,6 +1305,7 @@
     border-radius: 10px;
     z-index: 22;
     margin-left: 70px;
+    margin-top: 155px;
 }
 
 .about_container_4_text_2_img_1:hover{
@@ -1325,7 +1327,7 @@
     position: absolute;
     width: 174px;
     height: auto;
-    margin-top: 320px;
+    margin-top: 455px;
     border-radius: 10px;
     z-index: 33;
         margin-left: 70px;

@@ -1,61 +1,37 @@
 import './Gazification.css'
 import React, {useEffect, useState, useRef} from "react";
+import { getCurrentUserEmail } from '../Header/AuthContext.jsx';
 
-const Gazification = () =>  {
+const Gazification = ({ username }) =>  {
     const [activeHandler, setActiveHandler] = useState(0);
+  const email = getCurrentUserEmail();
 
-    const handleClick = (handlerId) => {
-        if (activeHandler === handlerId) {
-            // If the same handler is clicked again, close it
-            setActiveHandler(null);
-        } else {
-            // Close the previously active handler (if any)
-            if (activeHandler !== null) {
-                switch (activeHandler) {
-                    case 1:
-                        setIsShown(false);
-                        break;
-                    case 2:
-                        setIsShown_2(false);
-                        break;
-                    case 3:
-                        setIsShown_3(false);
-                        break;
-                    case 4:
-                        setIsShown_4(false);
-                        break;
-                    case 5:
-                        setIsShown_5(false);
-                        break;
-                    case 6:
-                        setIsShown_6(false);
-                        break;
-                    case 11:
-                        setIsShown_11(false);
-                        break;
-                    default:
-                        break;
-                }
-            }
-            const UslugiBlock = () => {
-                const [isHovered, setIsHovered] = useState(false);
-                const [description, setDescription] = useState('');
+  const handleServiceClick = (serviceTitle) => {
+    if (!email) {
+      console.error('User is not logged in');
+      return;
+    }
 
-                const handleMouseEnter = (desc) => {
-                    setDescription(desc);
-                    setIsHovered(true);
-                };
+    fetch('http://localhost:5000/saveService', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ username: email, serviceTitle }),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Service saved:', data);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+  };
 
-                const handleMouseLeave = () => {
-                    setDescription('');
-                    setIsHovered(false);
-                };
-            }
+  const handleClick = (handlerId) => {
+    setActiveHandler(activeHandler === handlerId ? null : handlerId);
+  };
 
-            // Open the clicked handler
-            setActiveHandler(handlerId);
-        }
-    };
 
     const [isShown, setIsShown] = useState(false);
     const [isShown_2, setIsShown_2] = useState(false);
@@ -396,7 +372,7 @@ return (
                   )}
                 </div>
 
-                              <div className={`gazification_body_uslugi_box7 ${activeHandler === 7 ? 'blue-background' : ''}`}>
+                              <div className={`gazification_body_uslugi_box7 ${activeHandler === 7 ? 'blue-background' : ''}`} onClick={() => handleServiceClick('Газификация частного дома')}>
                    <h2 className='gazification_body_uslugi_box_title_7'>Газификация частного дома</h2>
                    <img className='gazification_body_box7_image' src='/public/1633742605_40-pro-da.jpg'/>
                    <p className='gazification_body_price7'>от 12.000 руб.</p>

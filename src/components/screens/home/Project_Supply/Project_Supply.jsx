@@ -1,5 +1,7 @@
 import './Project_Supply.css'
 import React, {useEffect, useState, useRef} from "react";
+import { HashLink } from "react-router-hash-link";
+
 
 const Project_Supply = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
@@ -184,11 +186,9 @@ return (
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_2' href='/'>Цены</a>
-                                <a className='header_menu_menu_3' href='/'>Услуги</a>
+                                <HashLink to="/#uslugi">Услуги</HashLink>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_4' href='/'>Контакты</a>
-                                <a className='header_menu_menu_5' href='/'>+ 7 (918) 331-25-57</a>
+                                <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
                                 <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
@@ -397,8 +397,7 @@ return (
                 </div>
                 <div className='project_supply_footer_2'>
                     <p className='project_supply_footer_2_text_1'>АДРЕС ОФИСА</p>
-                    <p className='project_supply_footer_2_text_2'>г.Крснодар ул.Заполярная 37 к4</p>
-                    <p className='project_supply_footer_2_text_3'>г.Крснодар ул.Красных Партизан 1/4 к9</p>
+                    <p className='project_supply_footer_2_text_2'>г.Краснодар ул.Красных Партизан 1/4 к9,<br/>офис 20</p>
                 </div>
                 <div className='project_supply_footer_4'>
                     <p className='project_supply_footer_2_text_1'>ГРАФИК РАБОТЫ</p>
@@ -407,7 +406,7 @@ return (
                 </div>
                 <div className='project_supply_footer_5'>
                     <p className='project_supply_footer_2_text_1'>ТЕЛЕФОН</p>
-                    <p className='project_supply_footer_2_text_2'>+7 (918) 331-25-57</p>
+                    <p className='project_supply_footer_2_text_2'>+7 (901) 005-70-88</p>
                     <p className='project_supply_footer_2_text_3'>+7 (993) 310-00-01</p>
                 </div>
                 <div className='project_supply_footer_6'>
@@ -417,8 +416,8 @@ return (
                 </div>
                 <div className='project_supply_footer_7'>
                     <p className='project_supply_footer_2_text_1'>ИНФОРМАЦИЯ</p>
-                    <p className='project_supply_footer_2_text_11'>Контакты</p>
-                    <p className='project_supply_footer_2_text_21'>О компании</p>
+                    <p className='project_supply_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">О компании</p>
+                    <p className='project_supply_footer_2_text_21'></p>
                 </div>
 
                 </div>

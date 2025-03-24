@@ -27,6 +27,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.16.0",
+    "react-router-hash-link": "^2.4.3",
     "react-spring": "^9.7.3",
     "sqlite3": "^5.1.7"
   },

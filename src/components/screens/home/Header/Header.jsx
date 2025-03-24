@@ -1058,24 +1058,22 @@ const Header = () => {
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://localhost:3000" frameBorder="0"></iframe>
+                                <iframe src="http://partner-tech.ru" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_2' href='/'>Цены</a>
-                                <a className='header_menu_menu_3' href='/'>Услуги</a>
+                                <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_4' href='/'>Контакты</a>
-                                <a className='header_menu_menu_5' href='/'>+7 (918) 331-25-57</a>
-                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
+                                <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
+                                <a className='header_menu_menu_6' href='/'>info.partner-tech.ru</a>
                             </div>
                         </div>
                     )}
                     <div className='header_menu'>
-                        <a href='#uslugi'><p>Услуги</p></a>
+                        <a href='/contacts'><p>Контакты</p></a>
                        <a href='/about'><p>О нас</p></a>
-                        <p>info@partner-tech.ru</p>
-                        <p>+ 7 (918) 331-25-57</p>
+                        <p>info.partner-tech.ru</p>
+                        <p>+7 (901) 005-70-88</p>
                         <div className='header_top'>
                             <img className='header_phone' src='/public/fone_1.png' alt='фон'/>
                             <img className='circle_img' src='/public/logo_big.png' alt='логотип'/>
@@ -1270,7 +1268,7 @@ const Header = () => {
                             </div>
                             <div className="feature">
                                 <h3>Ответственность</h3>
-                                <p>Структура компании и четкий последовательный алгоритм производственных процессов не является только частью успеха ООО «Партнер».</p>
+                                <p>Структура компании и четкий последовательный алгоритм производственных процессов не является только частью успеха<br/> ООО «Партнер».</p>
                             </div>
                             <div className="feature feature-image" style={{ backgroundImage: "url('/public/ответствнность_Монтажная_область_1_копия_2.jpg')" }}>
 
@@ -1378,7 +1376,7 @@ const Header = () => {
 
                     </div>
 
-                <div id='uslugi'className='header_container_5'>
+                <div id='uslugi' className='header_container_5'>
                     <img className='circle_img_2' src='/public/logo_big.png'/>
                     <button className={`circle_button`} onClick={(rotateCircles)}>Дальше</button>
                     <div className='header_container_5_text'>
@@ -1557,8 +1555,8 @@ const Header = () => {
                 </div>
                 <div className='communication_footer_6'>
                     <p className='communication_footer_2_text_1'>E-MAIL</p>
-                    <p className='communication_footer_2_text_2'>info@partner-tech.ru</p>
-                    <p className='communication_footer_2_text_3'>mail@partner-krd.ru</p>
+                    <p className='communication_footer_2_text_2' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</p>
+                    <p className='communication_footer_2_text_3' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=mail@partner-krd.ru'} role="link">mail@partner-krd.ru</p>
                 </div>
                 <div className='communication_footer_7'>
                     <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>

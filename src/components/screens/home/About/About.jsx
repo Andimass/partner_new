@@ -1,6 +1,6 @@
 import './About.css'
 import React, {useRef, useState, useEffect } from "react";
-
+import { HashLink } from "react-router-hash-link";
 
 const About = () =>  {
 
@@ -642,11 +642,13 @@ useEffect(() => {
             <a className='about_bgc_bgc'/>
             <div className='About_ous'>
                 <div className='header_menu'>
-                <a href='/price'><p>Цены</p></a>
-                        <a href='/uslugi'><p>Услуги</p></a>
+                        <a href='/contacts'><p>Контакты</p></a>
                        <a href='/about'><p>О нас</p></a>
                         <p>info@partner-tech.ru</p>
-                    <p>+ 7 (918) 331-25-57</p>
+
+                    <p>+7 (993) 310-00-01</p>
+                    <p>+7 (901) 005-70-88</p>
+
                 </div>
                 <div className={`Header_menu_icon ${activeHandler === 11 ? 'menu_opacity' : ''}`} onClick={() => handleClick(11)}>
                     <div>
@@ -667,11 +669,9 @@ useEffect(() => {
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_2' href='/'>Цены</a>
-                                <a className='header_menu_menu_3' href='/'>Услуги</a>
+                                <HashLink to="/contacts">Контакты</HashLink>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_4' href='/'>Контакты</a>
-                                <a className='header_menu_menu_5' href='/'>+ 7 (918) 331-25-57</a>
+                                <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
                                 <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
@@ -680,7 +680,7 @@ useEffect(() => {
                 <p className='about_title'>ПАРТНЕР</p>
                 <img className='about_fon' src='/public/фон точки о нас.jpg'/>
                 <p className='about_title_2'>О компании</p>
-                <p className='about_title_text'>Профессиональная команда выполняющая комплексные проектных, изыскательных, кадастровых и инженерных услуг</p>
+                <p className='about_title_text'>Профессиональная команда выполняющая комплекс проектных, изыскательских, кадастровых и инженерных услуг</p>
                 <div className="collage">
                         <img className='about_title_img_1' src="/public/image.png" alt="Геодезия 1"/>
                     </div>
@@ -714,7 +714,7 @@ useEffect(() => {
                 </div>
                 <div className='about_2'>
                 <h2 className='about_2_title_1'>Несколько важных преимуществ компании Партнер</h2>
-                <p className='about_2_title_text'>Свою деятельность наша компания «Партнер» ведет 8 лет на земельном рынке Краснодара и Краснодарского края. ООО «Партнер» состоит в Ассоциации СРО «Центризыскания», что позволяет вести деятельность на территории Российской Федерации.</p>
+                <p className='about_2_title_text'>Свою деятельность наша компания «Партнер» ведет 8 лет на рынке услуг Краснодара и Краснодарского края.<br/> ООО «Партнер» состоит в Ассоциации СРО «Центризыскания», что позволяет вести деятельность на территории Российской Федерации.</p>
               <div className='about_2_block'>
                   <p className='about_2_block_img_1'/>
                   <p className='about_2_block_img_2' />
@@ -742,7 +742,7 @@ useEffect(() => {
                   <div className='about_2_block_2'>
                        <img className='about_2_block_1_img_1'/>
                       <p className='about_2_block_1_text_1'>Индивидуальность</p>
-                      <p className='about_2_block_1_text_2'> Работает с каждым клиентом в индивидуальном порядке</p>
+                      <p className='about_2_block_1_text_2'>Работает с каждым клиентом в индивидуальном порядке</p>
                       <p className='about_2_block_2_text_3'>02</p>
                   </div>
                   <div className='about_2_block_3'>
@@ -754,13 +754,13 @@ useEffect(() => {
                   <div className='about_2_block_4'>
                     <img className='about_2_block_1_img_1'/>
                       <p className='about_2_block_1_text_1'>Гарантия</p>
-                      <p className='about_2_block_1_text_2'>Гарантируем прохождение экспертизы инженерно-геодезических изысканий </p>
+                      <p className='about_2_block_1_text_2'>Гарантируем прохождение государственной, частной экспертизы и инженерно-геодезических изысканий</p>
                       <p className='about_2_block_4_text_3'>04</p>
                   </div>
                   <div className='about_2_block_5'>
                     <img className='about_2_block_1_img_1'/>
                       <p className='about_2_block_1_text_1'>Опыт</p>
-                      <p className='about_2_block_1_text_2'>Закрыли более 5000 различных объектов инженерных<span className='izis'> изысканий</span> <span> объемом от 0,1га до 2000га</span></p>
+                      <p className='about_2_block_1_text_2'>Разработали более 3000 различных проектов</p>
                       <p className='about_2_block_5_text_3'>05</p>
                   </div>
                   <div className='about_2_block_6'>
@@ -819,8 +819,8 @@ useEffect(() => {
                 </div>
                 <div className='communication_footer_2'>
                     <p className='communication_footer_2_text_1'>АДРЕС ОФИСА</p>
-                    <p className='communication_footer_2_text_2'>г.Крснодар ул.Заполярная 37 к4</p>
-                    <p className='communication_footer_2_text_3'>г.Крснодар ул.Красных Партизан 1/4 к9</p>
+                    <p className='communication_footer_2_text_2'>г.Краснодар ул.Красных Партизан 1/4 к9<br/>офис 20</p>
+                    <p className='communication_footer_2_text_3'></p>
                 </div>
                 <div className='communication_footer_4'>
                     <p className='communication_footer_2_text_1'>ГРАФИК РАБОТЫ</p>
@@ -829,7 +829,7 @@ useEffect(() => {
                 </div>
                 <div className='communication_footer_5'>
                     <p className='communication_footer_2_text_1'>ТЕЛЕФОН</p>
-                    <p className='communication_footer_2_text_2'>+7 (918) 331-25-57</p>
+                    <p className='communication_footer_2_text_2'>+7 (901) 005-70-88</p>
                     <p className='communication_footer_2_text_3'>+7 (993) 310-00-01</p>
                 </div>
                 <div className='communication_footer_6'>
@@ -839,8 +839,8 @@ useEffect(() => {
                 </div>
                 <div className='communication_footer_7'>
                     <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
-                    <p className='communication_footer_2_text_11'>Контакты</p>
-                    <p className='communication_footer_2_text_21'>О компании</p>
+                    <p className='communication_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">О компании</p>
+                    <p className='communication_footer_2_text_21'></p>
                 </div>
 
                 </div>

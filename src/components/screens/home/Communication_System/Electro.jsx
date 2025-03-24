@@ -1,6 +1,7 @@
 import './Electro.css'
 import React, {useEffect, useState, useRef} from "react";
 import {Helmet} from "react-helmet";
+import { HashLink } from "react-router-hash-link";
 
 const Communication = () =>  {
     const [activeHandler, setActiveHandler] = useState(0);
@@ -188,14 +189,12 @@ return (
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://www.partner-tech.ru/communication" frameBorder="0"></iframe>
+                                <iframe src="http://partner-tech.ru/communication_system" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_2' href='/'>Цены</a>
-                                <a className='header_menu_menu_3' href='/'>Услуги</a>
+                                <a className='header_menu_menu_3' href='/#uslugi'>Услуги</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_4' href='/'>Контакты</a>
                                 <a className='header_menu_menu_5' href='/'>+ 7 (918) 331-25-57</a>
                                 <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>

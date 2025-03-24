@@ -1088,7 +1088,7 @@ a::after {
 }
 
 .Power_Supply{
-    max-width: 2500px;
+    max-width: 2495px;
     height: auto;
     display: flex;
     position: absolute;
@@ -1099,7 +1099,7 @@ a::after {
 }
 
 .supply_header{
-    width: 2500px;
+    width: 2495px;
     display: flex;
     position: absolute;
 }
@@ -1123,7 +1123,7 @@ a::after {
 }
 
 .supply_body{
-    width: 2500px;
+    width: 2495px;
     height: auto;
     margin-top: 130px;
     position: absolute;
@@ -1156,7 +1156,7 @@ a::after {
 
 
 .geo_bgc{
-    width: 2500px;
+    width: 2495px;
     height: 1800px;
     background-color: rgba(255, 255, 255, 0.89);
 }
@@ -1257,7 +1257,7 @@ a::after {
     background-color: white;
     position: relative;
    bottom:0;
-   width: 2500px;
+   width: 2495px;
    height: 130px;   /* Высота блока "footer" */
     margin-top: 900px;
     margin-left: -195px;
@@ -1314,7 +1314,7 @@ a::after {
 
 .supply_black_line{
     background-color: black;
-    width: 2500px;
+    width: 2495px;
     height: 10px;
     position: absolute;
     margin-top: 95px;

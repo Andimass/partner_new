@@ -70,9 +70,9 @@ const Contacts = () =>  {
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className={`supply_header ${activeHandler === 4 ? 'bgc_opacity' : ''}`}>
                         <a href="/">
-                                    <img className='header_logo' src='/public/logo_new.png' alt='логотип'/>
+                                    <img className='contacts_logo' src='/public/logo_new.png' alt='логотип'/>
                         </a>
-                <div className={`Header_menu_icon ${activeHandler === 11 ? 'menu_opacity' : ''}`} onClick={() => handleClick(11)}>
+                <div className={`contacts_menu_icon ${activeHandler === 11 ? 'menu_opacity' : ''}`} onClick={() => handleClick(11)}>
                     <div>
                         <p className='Header_menu_icon_1'></p>
                         <p className='Header_menu_icon_2'></p>
@@ -94,16 +94,16 @@ const Contacts = () =>  {
                                 <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
                                 <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info.partner-tech.ru</a>
+                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}
-                    <div className='header_menu'>
+                    <div className='contacts_menu'>
                        <a href='/about'><p>О нас</p></a>
-                        <p>info.partner-tech.ru</p>
+                        <p>info@partner-tech.ru</p>
                         <p>+7 (901) 005-70-88</p>
-                        <div className='header_top'>
-                            <img className='header_phone' src='/public/fone_1.png' alt='фон'/>
+                        <div className='contacts_top'>
+                            <img className='contacts_phone' src='/public/fone_1.png' alt='фон'/>
 
                         </div>
                     </div>
@@ -115,8 +115,8 @@ const Contacts = () =>  {
                               <p className='Contacts_info'>г. Краснодар</p>
                               <p className='Contacts_info'>ул. Красных Партизан 1/4 к.9 офис 20</p>
                               <p className='Contacts_info'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
-                              <p className='Contacts_info'>mail@partner-krd.ru</p>
-                              <p className='Contacts_info_callback' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=mail@partner-krd.ru'} role="link">Связаться с нами</p>
+                              <p className='Contacts_info'>info@partner-tech.ru</p>
+                              <p className='Contacts_info_callback' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">Связаться с нами</p>
                               <iframe className='Contacts_card' src="https://yandex.ru/map-widget/v1/?um=constructor%3A34e162cd08a82e01ff38ac0c14372b9b29534f0b7c5a30aaa1defb6b19007a34&amp;source=constructor" frameBorder="0"></iframe>
                             </div>
                         </div>

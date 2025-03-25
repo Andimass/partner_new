@@ -188,7 +188,7 @@ return (
                                 <a className='header_menu_menu_3' href='/#uslugi'>Услуги</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
                                 <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info.partner-tech.ru</a>
+                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}

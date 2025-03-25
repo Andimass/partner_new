@@ -1065,14 +1065,14 @@ const Header = () => {
                                 <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
                                 <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info.partner-tech.ru</a>
+                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}
                     <div className='header_menu'>
                         <a href='/contacts'><p>Контакты</p></a>
                        <a href='/about'><p>О нас</p></a>
-                        <p>info.partner-tech.ru</p>
+                        <p>info@partner-tech.ru</p>
                         <p>+7 (901) 005-70-88</p>
                         <div className='header_top'>
                             <img className='header_phone' src='/public/fone_1.png' alt='фон'/>
@@ -1560,6 +1560,7 @@ const Header = () => {
                 </div>
                 <div className='communication_footer_7'>
                     <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
+                    <p className='communication_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">Контакты</p>
                     <p className='communication_footer_2_text_21' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">О компании</p>
                 </div>
 

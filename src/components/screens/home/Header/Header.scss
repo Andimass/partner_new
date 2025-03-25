@@ -22,7 +22,7 @@
   }
 
   .header_logo {
-    width: 52px;
+    width: 100px;
     margin-left: 20px;
     margin-top: -7px;
     position: absolute;
@@ -32,12 +32,14 @@
   .Header_menu_icon{
   width: 50px;
   height: 50px;
-  margin-left: 700px;
+  margin-left: 310px;
   position: fixed;
   margin-top: -20px;
   overflow: hidden;
   z-index: 10110;
     zoom: 50%;
+    visibility: hidden;
+
 }
 
   .header_logo_2 {
@@ -3072,7 +3074,7 @@ html {
 .header_phone{
     margin-left: -500px;
     width: 2495px;
-    height: 1400px;
+    height: 1250px;
 }
 
 .Header_menu_icon{

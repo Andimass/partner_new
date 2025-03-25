@@ -188,7 +188,7 @@ return (
                                 <a className='header_menu_menu_3' href='/'>Услуги</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
                                 <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info.partner-tech.ru</a>
+                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}
@@ -384,7 +384,7 @@ return (
                 </div>
                 <div className='geologic_footer_6'>
                     <p className='geologic_footer_2_text_1'>E-MAIL</p>
-                    <p className='geologic_footer_2_text_2'>info.partner-tech.ru</p>
+                    <p className='geologic_footer_2_text_2'>info@partner-tech.ru</p>
                     <p className='geologic_footer_2_text_3'>mail@partner-krd.ru</p>
                 </div>
                 <div className='geologic_footer_7'>

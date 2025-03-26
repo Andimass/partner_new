@@ -335,7 +335,7 @@ return (
                 </div>
 
                <div className={`geologic_body_uslugi_box5 ${activeHandler === 6 ? 'blue-background' : ''}`}>
-                   <h2 className='geologic_body_uslugi_box_title_5'>Архитектрный надзор</h2>
+                   <h2 className='geologic_body_uslugi_box_title_5'>Архитектурный надзор</h2>
                    <img className='geologic_body_box5_image' src='/public/nadzor (1).webp'/>
                    <p className='geologic_body_price5'>от 4.000 руб.</p>
                     <p className='geologic_body_text5'>Контроль за соответствием строительства проектной документации.</p>

@@ -872,12 +872,12 @@ const Header = () => {
     }, []);
 
 
-    const [number, setNumber] = useState(12683); // Начальное значение
+    const [number, setNumber] = useState(3161); // Начальное значение
 
     useEffect(() => {
         const interval = setInterval(() => {
             setNumber(prevNumber => prevNumber + 1); // Увеличиваем число на 1 каждую секунду
-        }, 1000); // Устанавливаем интервал в 1000 мс (1 секунда)
+        }, 10000); // Устанавливаем интервал в 1000 мс (1 секунда)
 
         return () => clearInterval(interval); // Очищаем интервал при размонтировании компонента
     }, []);
@@ -1136,23 +1136,23 @@ const Header = () => {
                                 <input className={`header_top_comp_2_title_1_strela5 ${activeHandler === 115 ? 'strela-digris_5': ''} ${activeHandler === 112 ? 'faq_1_4_1' : ''} ${activeHandler === 114 ? 'faq_1_5_1' : ''}`} type="image" src='/public/close_7903969.png' onClick={() => handleClick(115)} alt=''/>
                                     {activeHandler === 115 && (
                                     <div className='faq_1_5'>
-                                        <p className='header_top_comp_2_title_5_text'>Комплексное проектирование и расчет наружних инженерных канализационных и водопроводных систем любой сложности. Центральное и индивидуальное водоснабжение и водоотведение.</p>
+                                        <p className='header_top_comp_2_title_5_text'>Комплексное проектирование и расчет наружных инженерных канализационных и водопроводных систем любой сложности. Центральное и индивидуальное водоснабжение и водоотведение</p>
                                         </div>
                                       )}
                                 <div className='header_top_comp_2_title_511'>
-                                    <p className='header_top_comp_2_title_51'>Комплексное проектирование и расчет наружних инженерных канализационных и водопроводных систем любой сложности. Центральное и индивидуальное водоснабжение и водоотведение.</p>
+                                    <p className='header_top_comp_2_title_51'>Комплексное проектирование и расчет наружных инженерных канализационных и водопроводных систем любой сложности. Центральное и индивидуальное водоснабжение и водоотведение</p>
                                 </div>
 
 
                             <div><a href='/cadastral_works' className={`header_top_comp_2_title_6 ${activeHandler === 116 ? 'faq_1_6' : ''}  ${activeHandler === 114 ? 'faq_1_6_1' : ''} ${activeHandler === 115 ? 'faq_1_6_2' : ''}`}>Кадастровые работы</a>
                           </div>
                                 <div className='header_top_comp_2_title_611'>
-                                    <p className='header_top_comp_2_title_61'>Подготовка документов содержаших полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
+                                    <p className='header_top_comp_2_title_61'>Подготовка документов содержащих полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
                                 </div>
                             <input className={`header_top_comp_2_title_1_strela6 ${activeHandler === 116 ? 'strela-digris_6': ''} ${activeHandler === 114 ? 'faq_1_6_1' : ''} ${activeHandler === 115 ? 'faq_1_6_2' : ''}`} type="image" src='/public/close_7903969.png' onClick={() => handleClick(116)} alt=''/>
                                     {activeHandler === 116 && (
                                     <div className='faq_1_6'>
-                                        <p className='header_top_comp_2_title_6_text'>Подготовка документов содержаших полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
+                                        <p className='header_top_comp_2_title_6_text'>Подготовка документов содержащих полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
                                         </div>
                                       )}
 
@@ -1161,7 +1161,7 @@ const Header = () => {
                            <input className={`header_top_comp_2_title_1_strela7 ${activeHandler === 117 ? 'strela-digris_7': ''} ${activeHandler === 112 ? 'faq_1_7_1' : ''} ${activeHandler === 111 ? 'faq_1_7_2' : ''} ${activeHandler === 113 ? 'faq_1_7_3' : ''}`} type="image" src='/public/close_7903969.png' onClick={() => handleClick(117)} alt=''/>
                                 {activeHandler === 117 && (
                                 <div className='faq_1_7'>
-                                    <p className='header_top_comp_2_title_7_text'>Подготовка документов содержаших полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
+                                    <p className='header_top_comp_2_title_7_text'>Подготовка документов содержащих полный перечень сведений, используемых для оформления на кадастровый учет недвижимости в специальных государственных органах</p>
                                     </div>
                                   )}
                                 {/*<div className='header_top_comp_2_title_711'>*/}
@@ -1169,7 +1169,7 @@ const Header = () => {
                                 {/*</div>*/}
                         </div>
                     <div className='header_container_1'>
-                        <p className='header_container_1_title'>Мы предлагаем комплексное решение задач от начальных замеров и разработки проектной документации до поддержки на всех этапах реализации проекта и последующей эксплуатации объектов.</p>
+                        <p className='header_container_1_title'>Мы предлагаем комплексное решение задач от начальных замеров и разработки проектной документации до поддержки на всех этапах реализации проекта и последующей эксплуатации объектов</p>
                         <p className='header_container_1_year'>8 лет</p>
                         <p className='header_container_1_prod'>Продуктивной работы</p>
                         <p className='header_container_1_num'>{number}</p>
@@ -1479,14 +1479,14 @@ const Header = () => {
                               <div className='header_container_6_block_1_fon' onMouseMove={handleMouseMove_3} onMouseEnter={handleMouseEnter_3} onMouseLeave={handleMouseLeave_3}>
                                 <img className='header_container_6_block_1_img_1' src='/public/Group 109.png'/>
                               <img id="hoverImage_3" className='hover-image_3' src='/public/gaz_project.png' style={{ display: 'none', position: 'absolute' }}/></div>
-                              <p className='header_container_6_block_1_text_1'>Распределительные сети 10кв от центра питания пс 110 икеа </p>
+                              <p className='header_container_6_block_1_text_1'>Строительство газопровода низкого давления 225х20.5 мм ст.Нововеличковская</p>
                             <p className='header_container_6_block_1_text_2'>Август 2023 </p>
                         </div>
 
                         <div className='header_container_6_block_2'>
                               <div className='header_container_6_block_2_fon' onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                     <img className='header_container_6_block_2_img_1' src='/public/Group 110.png'/>
-                                    <img id="hoverImage" className='hover-image' src='/public/voda_project.png' style={{ display: 'none', position: 'absolute' }}/>
+                                    <img id="hoverImage" className='hover-image' src='/public/voda_project копия.png' style={{ display: 'none', position: 'absolute' }}/>
                                 </div>
                               <p className='header_container_6_block_2_text_1'>Система отопления, вентиляции и кондиционирования.
 Подземная автостоянка</p>
@@ -1496,7 +1496,7 @@ const Header = () => {
                         <div className='header_container_6_block_3'>
                               <div className='header_container_6_block_3_fon' onMouseMove={handleMouseMove_2} onMouseEnter={handleMouseEnter_2} onMouseLeave={handleMouseLeave_2}>
                             <img className='header_container_6_block_3_img_1' src='/public/Group 111.png'/>
-                              <img id="hoverImage_2" className='hover-image_2' src='/public/volt.png' style={{ display: 'none', position: 'absolute' }}/></div>
+                              <img id="hoverImage_2" className='hover-image_2' src='/public/volt копия.png' style={{ display: 'none', position: 'absolute' }}/></div>
                               <p className='header_container_6_block_3_text_1'>«ЛЭП-10 кВ от КРУН-10 кВ ПС 110 кВ «Усть-Лабинская тяговая» до ТП 10/0,4 кВ проектируемой на территории ООО «УК «Индустриальный парк «Кубань»</p>
                             <p className='header_container_6_block_3_text_2'>Май 2024 </p>
                         </div>
@@ -1523,7 +1523,7 @@ const Header = () => {
                               <div className='header_container_6_block_6_fon' onMouseMove={handleMouseMove_6} onMouseEnter={handleMouseEnter_6} onMouseLeave={handleMouseLeave_6}>
                             <img className='header_container_6_block_6_img_1' src='/public/Group 126.png'/>
                               <img id="hoverImage_6" className='hover-image_6' src='/public/geo_project.png' style={{ display: 'none', position: 'absolute' }}/></div>
-                              <p className='header_container_6_block_6_text_1'>Распределительные сети 10кв от центра питания пс 110 икеа </p>
+                              <p className='header_container_6_block_6_text_1'>Распределительные сети 10кВ от центра питания ПС 110 икеа </p>
                             <p className='header_container_6_block_6_text_2'>Август 2023 </p>
                         </div>
                     </div>

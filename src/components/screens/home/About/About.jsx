@@ -665,7 +665,7 @@ useEffect(() => {
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://partner-tech.ru/about" frameBorder="0"></iframe>
+                                <iframe src="https://partner-tech.ru/about" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
@@ -793,7 +793,7 @@ useEffect(() => {
                 </div>
                 <div className='about_container_4_pers'>
                 <p className='about_container_4_text_3' id='about_3'>Работа с персоналом</p>
-                <img className='about_container_4_text_3_img_1' src='/public/IMG_4231_5_11zon.jpg'/>
+                <img className='about_container_4_text_3_img_1' src='/public/2025-03-26 15.39.48 копия.jpg'/>
                 <img className='about_container_4_text_3_img_2' src='/public/IMG_4148-2_3_11zon%20(1).jpg'/>
                 </div>
                 <div className='about_container_4_otv'>

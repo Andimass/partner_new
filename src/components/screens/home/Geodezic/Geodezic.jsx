@@ -220,11 +220,11 @@ return (
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://partner-tech.ru/geodezic" frameBorder="0"></iframe>
+                                <iframe src="https://partner-tech.ru/geodezic" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_3' href='/'>Услуги</a>
+                                <HashLink to="/contacts">Контакты</HashLink>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
                                 <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
                                 <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>

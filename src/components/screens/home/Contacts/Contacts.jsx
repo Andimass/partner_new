@@ -65,13 +65,13 @@ const Contacts = () =>  {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"/>
         </head>
-            <body>
+            <body className="custom-zoom-page">
                 <div className='Contacts'>
+                         <a href="/">
+                            <img className='contacts_logo' src='/public/logo_new.png' alt='логотип'/>
+                        </a>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <div className={`supply_header ${activeHandler === 4 ? 'bgc_opacity' : ''}`}>
-                        <a href="/">
-                                    <img className='contacts_logo' src='/public/logo_new.png' alt='логотип'/>
-                        </a>
                 <div className={`contacts_menu_icon ${activeHandler === 11 ? 'menu_opacity' : ''}`} onClick={() => handleClick(11)}>
                     <div>
                         <p className='Header_menu_icon_1'></p>

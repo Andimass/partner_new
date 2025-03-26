@@ -1560,7 +1560,7 @@ const Header = () => {
                 </div>
                 <div className='communication_footer_7'>
                     <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
-                    <p className='communication_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">Контакты</p>
+                    <p className='communication_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/contacts'} role="link">Контакты</p>
                     <p className='communication_footer_2_text_21' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">О компании</p>
                 </div>
 

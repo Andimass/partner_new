@@ -1795,7 +1795,7 @@
 }
 
 .faq_1_1:after {
-    margin-top: -240px;
+    margin-top: -375px;
 }
 
 .faq_1_1:before {
@@ -4956,6 +4956,10 @@
         opacity: 0.5;
     font-size: 18px;
     font-family: "Cera Pro Regular",sans-serif;
+}
+
+.geodezic_footer_2_text_11:hover{
+    color: #9e9ef1;
 }
 
 .geodezic_footer_2_text_21{

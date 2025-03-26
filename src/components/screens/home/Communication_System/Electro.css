@@ -1730,11 +1730,11 @@
 }
 
 .faq_1:after {
-    margin-top: -105px;
+    margin-top: -95px;
 }
 
 .faq_1:before {
-    margin-top: 95px;
+    margin-top: 103px;
     transition: opacity 0.3s ease, margin-top 0.5s ease;
 }
 
@@ -4776,9 +4776,17 @@
     .communication_footer_2_text_21 {
         opacity: 0.5;
         font-size: 18px;
-        margin-top: -10px;
+        margin-top: -1px;
         font-family: "Cera Pro Regular", sans-serif;
     }
+
+    .communication_footer_2_text_21:hover{
+    color: #9e9ef1;
+}
+
+    .communication_footer_2_text_11:hover{
+    color: #9e9ef1;
+}
 
     .footer-shot_1_1{
     margin-top: 4120px;

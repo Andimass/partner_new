@@ -20,6 +20,19 @@
          font-size: 22px;
     }
 
+         .supply_header{
+        width: 1px;
+    }
+
+
+     .contacts_logo{
+             width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1999;
+     }
+
      .contacts_menu_icon{
           width: 50px;
           height: 50px;
@@ -57,16 +70,20 @@
     margin-top: 15px;
     z-index: 2000;
 }
-
+.contacts_phone{
+    margin-left: -1px;
+    width: 1px;
+    height: 1px;
+}
 
     .Contacts_info_glav{
-        margin-top: 150px;
+        margin-top: 220px;
         position: absolute;
-        margin-left: 52px;
-        width: 300px;
+        margin-left: 22px;
+        width: 410px;
         font-size: 15px;
-        color: #FFFFFF;
-        text-align: center;
+        color: #000000;
+        text-align: start;
     }
 
     .Contacts_info{
@@ -78,8 +95,8 @@
     }
 
     .Contacts_card{
-        width: 390px;
-        height: 200px;
+        width: 1196px;
+        height: 300px;
         position: absolute;
         margin-left: -200px;
         margin-top: 60px;
@@ -90,8 +107,9 @@
     display: flex;
     color: black;
     position: absolute;
-    margin-left: 410px;
+    margin-left: 510px;
     width: 1px;
+        margin-top: -7px;
 }
 
 .contacts_menu a{
@@ -117,7 +135,7 @@
     font-size: 60px;
     font-weight: 700;
     font-family: a_FuturaOrtoBold, sans-serif;
-    margin-top: 123px;
+    margin-top: 100px;
     margin-left: 16px;
     z-index: 1;
     position: absolute;
@@ -308,7 +326,59 @@ color: white;
 
 
 
+@media (min-width: 1290px) and (max-width: 1370px) {
+    .custom-zoom-page {
+        zoom: 51.9%;
+    }
+}
 
+@media (min-width: 1371px) and (max-width: 1439px) {
+    .custom-zoom-page {
+        zoom: 54.9%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1520px) {
+    .custom-zoom-page {
+        zoom: 57.6%;
+    }
+}
+
+@media (min-width: 1520px) and (max-width: 1600px) {
+    .custom-zoom-page {
+        zoom: 61.4%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+    .custom-zoom-page {
+        zoom: 64.4%;
+    }
+}
+
+@media (min-width: 1840px) and (max-width: 1859px) {
+    .custom-zoom-page {
+        zoom: 71%;
+    }
+}
+
+@media (min-width: 1860px) and (max-width: 1920px) {
+    .custom-zoom-page {
+        zoom: 74.2%;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2250px) {
+    .custom-zoom-page {
+        zoom: 81.1%;
+    }
+}
+
+@media (min-width: 2700px) and (max-width: 3000px) {
+    .custom-zoom-page {
+        zoom: 91.1%;
+    }
+}
 
 
 
@@ -334,6 +404,15 @@ color: white;
         /* Дополнительные стили для вашей шапки */
         background-color: #242424;
         font-family: 'a_FuturaOrtoLt', Arial, sans-serif;
+
+      .contacts_logo {
+        width: 170px;
+        margin-left: 40px;
+        margin-top: 8px;
+        position: fixed;
+        z-index: 1999;
+      filter: brightness(0%);
+    }
 
      .Contacts_title{
         margin-top: 211px;
@@ -461,6 +540,15 @@ color: white;
     background-color: #242424;
     font-family: "Cera Pro Regular", sans-serif;
 }
+
+      .contacts_logo {
+        width: 170px;
+        margin-left: 40px;
+        margin-top: 8px;
+        position: fixed;
+        z-index: 1999;
+      filter: brightness(0%);
+    }
 
 .contacts_phone{
     margin-left: -500px;

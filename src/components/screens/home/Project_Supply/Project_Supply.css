@@ -9085,12 +9085,20 @@
         font-family: "Cera Pro Regular", sans-serif;
     }
 
+    .project_supply_footer_2_text_11:hover{
+    color: #9e9ef1;
+}
+
     .project_supply_footer_2_text_21 {
         opacity: 0.5;
         font-size: 18px;
         margin-top: -10px;
         font-family: "Cera Pro Regular", sans-serif;
     }
+
+    .project_supply_footer_2_text_21:hover{
+    color: #9e9ef1;
+}
 
     .footer-shot_1_1{
     margin-top: 4120px;

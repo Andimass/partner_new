@@ -450,13 +450,13 @@ return (
                 </div>
                 <div className='cadastr_footer_6'>
                     <p className='cadastr_footer_2_text_1'>E-MAIL</p>
-                    <p className='cadastr_footer_2_text_2'>info@partner-tech.ru</p>
-                    <p className='cadastr_footer_2_text_3'>mail@partner-krd.ru</p>
+                    <p className='cadastr_footer_2_text_2' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</p>
+                    <p className='cadastr_footer_2_text_3' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=mail@partner-krd.ru'} role="link">mail@partner-krd.ru</p>
                 </div>
                 <div className='cadastr_footer_7'>
                     <p className='cadastr_footer_2_text_1'>ИНФОРМАЦИЯ</p>
                     <p className='cadastr_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">О компании</p>
-                    <p className='cadastr_footer_2_text_21'></p>
+                    <p className='cadastr_footer_2_text_21' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/contacts'} role="link">Контакты</p>
                 </div>
 
                 </div>

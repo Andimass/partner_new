@@ -926,6 +926,7 @@
     margin-left: 140px;
     margin-top: -15px;
         z-index: 999;
+    visibility: hidden;
 }
 
 .about_2_block_2_text_3{
@@ -936,6 +937,7 @@
     margin-left: 140px;
     margin-top: -15px;
         z-index: 999;
+        visibility: hidden;
 }
 
 .about_2_block_3_text_3{
@@ -945,6 +947,7 @@
     font-family: "Cera Pro Medium", sans-serif;
             margin-left: 140px;
     margin-top: -25px;
+        visibility: hidden;
 }
 
 .about_2_block_4_text_3{
@@ -954,6 +957,7 @@
     font-family: "Cera Pro Medium", sans-serif;
     margin-left: 135px;
     margin-top: -7px;
+        visibility: hidden;
 }
 
 .about_2_block_5_text_3{
@@ -963,6 +967,7 @@
     font-family: "Cera Pro Medium", sans-serif;
         margin-left: 140px;
     margin-top: 10px;
+        visibility: hidden;
 }
 
 .about_2_block_6_text_3{
@@ -972,6 +977,7 @@
     font-family: "Cera Pro Medium", sans-serif;
             margin-left: 140px;
     margin-top: 5px;
+        visibility: hidden;
 }
 
 .about_2_block_2{
@@ -998,6 +1004,18 @@
     margin-top: 280px;
 
 }
+
+    .about_2_block_1:hover,
+    .about_2_block_2:hover,
+    .about_2_block_3:hover,
+    .about_2_block_4:hover,
+    .about_2_block_5:hover,
+    .about_2_block_6:hover {
+        background: linear-gradient(135deg, rgba(243, 6, 6, 0), rgba(164, 49, 49, 0), rgba(140, 45, 45, 0), rgba(255, 255, 255, 0), rgba(0, 55, 251, 0));
+        transition: transform 1s;
+        z-index: 1999;
+
+    }
 
 .about_2_block_4 .about_2_block_1_text_2{
     color: black;
@@ -3831,7 +3849,7 @@ body{
 .communication_footer_2_text_21{
         opacity: 0.5;
         font-size: 18px;
-    margin-top: 1px;
+    margin-top: -13px;
     font-family: "Cera Pro Regular",sans-serif;
 }
 

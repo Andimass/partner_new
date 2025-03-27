@@ -4711,7 +4711,7 @@ display: none;
 }
 
 .geologic_footer_7 {
-    width: 300px;
+    width: 105px;
     position: absolute;
     margin-left: 700px;
     margin-top: -75px;
@@ -4735,7 +4735,7 @@ display: none;
 }
 
 .geologic_footer_7 {
-    width: 300px;
+    width: 105px;
     position: absolute;
     margin-left: 1510px;
     margin-top: 130px;
@@ -4747,7 +4747,11 @@ display: none;
     font-family: "Cera Pro Regular", sans-serif;
 }
 
-.geologic_footer_2_text_11:hover{
+    .geologic_footer_2_text_21:hover{
+    color: #9e9ef1;
+}
+
+    .geologic_footer_2_text_11:hover{
     color: #9e9ef1;
 }
 

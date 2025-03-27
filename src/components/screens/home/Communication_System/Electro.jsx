@@ -193,10 +193,11 @@ return (
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_3' href='/#uslugi'>Услуги</a>
+                                <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_5' href='/'>+ 7 (918) 331-25-57</a>
-                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
+                                <a className='header_menu_menu_5'>+7 (901) 005-70-88</a>
+                                <a className='header_menu_menu_5'>+7 (993) 310-00-01</a>
+                                <a className='header_menu_menu_6' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}
@@ -552,8 +553,8 @@ return (
                 </div>
                 <div className='communication_footer_2'>
                     <p className='communication_footer_2_text_1'>АДРЕС ОФИСА</p>
-                    <p className='communication_footer_2_text_2'>г.Крснодар ул.Заполярная 37 к4</p>
-                    <p className='communication_footer_2_text_3'>г.Крснодар ул.Красных Партизан 1/4 к9</p>
+                    <p className='communication_footer_2_text_2'>г.Краснодар ул. Красных Партизан 1/4 к.9<br/>офис 20</p>
+                    <p className='communication_footer_2_text_3'></p>
                 </div>
                 <div className='communication_footer_4'>
                     <p className='communication_footer_2_text_1'>ГРАФИК РАБОТЫ</p>
@@ -567,13 +568,13 @@ return (
                 </div>
                 <div className='communication_footer_6'>
                     <p className='communication_footer_2_text_1'>E-MAIL</p>
-                    <p className='communication_footer_2_text_2'>info@partner-tech.ru</p>
-                    <p className='communication_footer_2_text_3'>mail@partner-krd.ru</p>
+                    <p className='communication_footer_2_text_2' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</p>
+                    <p className='communication_footer_2_text_3' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=mail@partner-krd.ru'} role="link">mail@partner-krd.ru</p>
                 </div>
                 <div className='communication_footer_7'>
                     <p className='communication_footer_2_text_1'>ИНФОРМАЦИЯ</p>
-                    <p className='communication_footer_2_text_11'>Контакты</p>
-                    <p className='communication_footer_2_text_21'>О компании</p>
+                    <p className='communication_footer_2_text_11' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/about'} role="link">Контакты</p>
+                    <p className='communication_footer_2_text_21' style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/contacts'} role="link">О компании</p>
                 </div>
                </div>
                 </div>

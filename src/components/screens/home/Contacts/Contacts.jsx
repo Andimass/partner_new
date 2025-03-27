@@ -91,10 +91,10 @@ const Contacts = () =>  {
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
+                                <a className='header_menu_menu_5'>+7 (901) 005-70-88</a>
+                                <a className='header_menu_menu_5'>+7 (993) 310-00-01</a>
+                                <a className='header_menu_menu_6' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}
@@ -102,6 +102,7 @@ const Contacts = () =>  {
                        <a href='/about'><p>О нас</p></a>
                         <p>info@partner-tech.ru</p>
                         <p>+7 (901) 005-70-88</p>
+                        <p>+7 (993) 310-00-01</p>
                         <div className='contacts_top'>
                             <img className='contacts_phone' src='/public/fone_1.png' alt='фон'/>
 
@@ -114,7 +115,8 @@ const Contacts = () =>  {
                               <p className='Contacts_info'>Краснодарский край</p>
                               <p className='Contacts_info'>г. Краснодар</p>
                               <p className='Contacts_info'>ул. Красных Партизан 1/4 к.9 офис 20</p>
-                              <p className='Contacts_info'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
+                              <p className='Contacts_info'>+ 7 (993) 310<span className='dop_1_span'>-</span>00<span className='dop_1_span'>-</span>01</p>
+                              <p className='Contacts_info'>+ 7 (901) 005<span className='dop_1_span'>-</span>70<span className='dop_1_span'>-</span>88</p>
                               <p className='Contacts_info'>info@partner-tech.ru</p>
                               <p className='Contacts_info_callback' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">Связаться с нами</p>
                               <iframe className='Contacts_card' src="https://yandex.ru/map-widget/v1/?um=constructor%3A34e162cd08a82e01ff38ac0c14372b9b29534f0b7c5a30aaa1defb6b19007a34&amp;source=constructor" frameBorder="0"></iframe>

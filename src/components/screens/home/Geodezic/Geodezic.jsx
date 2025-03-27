@@ -224,10 +224,11 @@ return (
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
-                                <HashLink to="/contacts">Контакты</HashLink>
+                                <a className='header_menu_menu_3' href='/contacts'>Контакты</a>
                                 <a className='header_menu_menu_4' href='/about'>О нас</a>
-                                <a className='header_menu_menu_5' href='/'>+7 (901) 005-70-88</a>
-                                <a className='header_menu_menu_6' href='/'>info@partner-tech.ru</a>
+                                <a className='header_menu_menu_5'>+7 (901) 005-70-88</a>
+                                <a className='header_menu_menu_5'>+7 (993) 310-00-01</a>
+                                <a className='header_menu_menu_6' style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</a>
                             </div>
                         </div>
                     )}

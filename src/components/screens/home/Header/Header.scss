@@ -3549,8 +3549,8 @@ html {
 }
 
 .header_menu_menu a:nth-child(6){
-    margin-top: 150px;
-    font-size: 18px;
+    //margin-top: 150px;
+    //font-size: 18px;
 }
 
 .header_menu_menu a:nth-child(7){
@@ -4871,7 +4871,7 @@ background-color: rgba(246, 245, 245);
     color: #18b472;
     margin-top: 290px;
     margin-left: 1110px;
-  animation: dop_num 1s infinite;
+  animation: dop_num 10s infinite;
 }
 
 @keyframes dop_num{
@@ -6991,7 +6991,7 @@ background-color: rgba(246, 245, 245);
 }
 
 .communication_footer_7{
-            width: 300px;
+            width: 105px;
     position: absolute;
     margin-left: 700px;
     margin-top: -75px;
@@ -7015,7 +7015,7 @@ background-color: rgba(246, 245, 245);
 }
 
 .communication_footer_7{
-            width: 300px;
+            width: 105px;
     position: absolute;
     margin-left: 1510px;
     margin-top: 130px;

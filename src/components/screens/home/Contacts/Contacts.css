@@ -96,20 +96,22 @@
 
     .Contacts_card{
         width: 1196px;
-        height: 300px;
+        height: 550px;
         position: absolute;
-        margin-left: -200px;
+        margin-left: -400px;
         margin-top: 60px;
         border: 3px solid white;
+        zoom: 80%;
     }
 
     .contacts_menu{
     display: flex;
     color: black;
     position: absolute;
-    margin-left: 510px;
+    margin-left: 90px;
     width: 1px;
-        margin-top: -7px;
+        margin-top: -3px;
+        visibility: hidden;
 }
 
 .contacts_menu a{
@@ -118,7 +120,7 @@
     font-family: "Cera Pro Regular", sans-serif;
         white-space: nowrap;
     padding-left: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contacts_menu p{
@@ -126,8 +128,8 @@
     z-index: 999;
         white-space: nowrap;
   font-family: "Cera Pro Regular", sans-serif;
-    padding-right: 30px;
-    font-size: 20px;
+    padding-right: 10px;
+    font-size: 18px;
 }
 
 .contacts_title{

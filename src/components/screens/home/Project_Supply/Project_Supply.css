@@ -9049,7 +9049,7 @@
     }
 
     .project_supply_footer_7 {
-        width: 300px;
+        width: 105px;
         position: absolute;
         margin-left: 700px;
         margin-top: -75px;
@@ -9073,7 +9073,7 @@
     }
 
     .project_supply_footer_7 {
-        width: 300px;
+        width: 105px;
         position: absolute;
         margin-left: 1510px;
         margin-top: 130px;
@@ -9089,6 +9089,10 @@
     color: #9e9ef1;
 }
 
+    .project_supply_footer_2_text_21:hover{
+        color: #9e9ef1;
+}
+
     .project_supply_footer_2_text_21 {
         opacity: 0.5;
         font-size: 18px;
@@ -9096,9 +9100,6 @@
         font-family: "Cera Pro Regular", sans-serif;
     }
 
-    .project_supply_footer_2_text_21:hover{
-    color: #9e9ef1;
-}
 
     .footer-shot_1_1{
     margin-top: 4120px;

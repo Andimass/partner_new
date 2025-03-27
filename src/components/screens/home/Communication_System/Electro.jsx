@@ -189,7 +189,7 @@ return (
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://partner-tech.ru/communication_system" frameBorder="0"></iframe>
+                                <iframe src="https://partner-tech.ru/communication_system" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>

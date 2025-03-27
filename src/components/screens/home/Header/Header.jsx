@@ -1058,7 +1058,7 @@ const Header = () => {
                             <input className='header_menu_supply_activate_close' type="image" src='/public/close_2428586.png' onClick={handleCloseClick}></input>
                             <div className='header_menu_opacity_bgc'></div>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://partner-tech.ru" frameBorder="0"></iframe>
+                                <iframe src="https://partner-tech.ru" frameBorder="0"></iframe>
                             </div>
                             <div className='header_menu_menu'>
                                 <a className='header_menu_menu_1' href='/'>Главная</a>
@@ -1073,7 +1073,7 @@ const Header = () => {
                     <div className='header_menu'>
                         <a href='/contacts'><p>Контакты</p></a>
                        <a href='/about'><p>О нас</p></a>
-                        <p>info@partner-tech.ru</p>
+                        <p style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://mail.google.com/mail/?view=cm&to=info@partner-tech.ru'} role="link">info@partner-tech.ru</p>
                         <p>+7 (901) 005-70-88</p>
                         <p>+7 (993) 310-00-01</p>
                         <div className='header_top'>

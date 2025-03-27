@@ -1524,7 +1524,7 @@ const Header = () => {
                         <div className='header_container_6_block_6'>
                               <div className='header_container_6_block_6_fon' onMouseMove={handleMouseMove_6} onMouseEnter={handleMouseEnter_6} onMouseLeave={handleMouseLeave_6}>
                             <img className='header_container_6_block_6_img_1' src='/public/Group 126.png'/>
-                              <img id="hoverImage_6" className='hover-image_6' src='/public/geo_project.png' style={{ display: 'none', position: 'absolute' }}/></div>
+                              <img id="hoverImage_6" className='hover-image_6' src='/public/cadastr_project.png' style={{ display: 'none', position: 'absolute' }}/></div>
                               <p className='header_container_6_block_6_text_1'>Распределительные сети 10кВ от центра питания ПС 110 икеа </p>
                             <p className='header_container_6_block_6_text_2'>Август 2023 </p>
                         </div>
